@@ -11,6 +11,7 @@
 		C8C413802956E5EF001456C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4137F2956E5EF001456C1 /* ContentView.swift */; };
 		C8C413822956E5F1001456C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C413812956E5F1001456C1 /* Assets.xcassets */; };
 		C8C413862956E5F1001456C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C413852956E5F1001456C1 /* Preview Assets.xcassets */; };
+		C8C4138E2956E991001456C1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4138D2956E991001456C1 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C8C413812956E5F1001456C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C413832956E5F1001456C1 /* DatePickerSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DatePickerSwiftUI.entitlements; sourceTree = "<group>"; };
 		C8C413852956E5F1001456C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C4138D2956E991001456C1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		C8C4137C2956E5EF001456C1 /* DatePickerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C8C4138C2956E984001456C1 /* Extentions */,
 				C8C4137D2956E5EF001456C1 /* DatePickerSwiftUIApp.swift */,
 				C8C4137F2956E5EF001456C1 /* ContentView.swift */,
 				C8C413812956E5F1001456C1 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				C8C413852956E5F1001456C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8C4138C2956E984001456C1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				C8C4138D2956E991001456C1 /* Date.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8C413802956E5EF001456C1 /* ContentView.swift in Sources */,
+				C8C4138E2956E991001456C1 /* Date.swift in Sources */,
 				C8C4137E2956E5EF001456C1 /* DatePickerSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
